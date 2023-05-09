@@ -1,0 +1,153 @@
+.form-container {
+  width: 50%;
+  height: 100%;
+  color: #222;
+}
+
+input {
+  outline: none;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: auto;
+  padding: 50px;
+}
+
+.form-groop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.form-container h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 98px;
+}
+
+.form-groop .form-element {
+  width: 30%;
+}
+
+
+.form-element label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.form-element .time {
+  width: 100%;
+  border: 1px solid #ebebeb;
+  margin-top: 5px;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  outline: none;
+}
+
+.form-groop .comment-container {
+  width: 100%;
+}
+
+textarea {
+  height: 120px;
+  border: 1px solid #ebebeb;
+  margin-top: 5px;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  outline: none;
+}
+
+textarea:focus {
+  border: 1px solid #ff6801;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button-container input{
+  width: 50%;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.reset {
+  background-color: #f8f8f8;
+  color: #999;
+}
+
+.submit {
+  margin-left: 10px;
+  background-color: #ff6801;
+  color: #fff;
+}
+
+.submit:hover {
+  background-color: #cd5300;
+}
+.reset:hover {
+  background-color: #ff6801;
+  color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 1305px) {
+  .form-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 678px) {
+
+
+  .form-container h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .form {
+    padding: 10px;
+  }
+
+  .form-groop {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-groop .form-element {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-container input{
+    width: 100%;
+  }
+
+  .submit {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+}

@@ -1,0 +1,25 @@
+.list {
+  width: 100%;
+  border: 1px solid #ebebeb;
+  margin-top: 5px;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: url("../../../public/image/line-angle-down-icon.svg") no-repeat right;
+  background-position-x: calc(100% - 8px);
+  outline: none;
+  cursor: pointer;
+}
+
+.list:focus {
+  border: 1px solid #ff6801;
+}
+
+
+
